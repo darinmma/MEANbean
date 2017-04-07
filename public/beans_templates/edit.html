@@ -1,0 +1,13 @@
+<form ng-submit="beansCtrl.editBean()" id="editBean">
+  <div>
+    <label for="editBean-name">Name:</label>
+    <input type="text" ng-model="beansCtrl.selectedBean.name">
+  </div>
+  <div>
+    <label for="editBean-quantity">Quantity:</label>
+    <input type="text" ng-model="beansCtrl.selectedBean.quantity">
+  </div>
+  <div>
+    <input type="submit" value="edit">
+  </div>
+</form>
